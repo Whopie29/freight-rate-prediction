@@ -7,6 +7,7 @@
 ├── README.md
 ├── requirements.txt              # training deps (this repo's model)
 ├── train_model.py                # full training + inference pipeline
+├── reference_run_sklearn.py
 ├── score.py                      # scorer provided by Spotter (unmodified)
 ├── data/
 │   ├── train_test.csv
