@@ -1,13 +1,4 @@
-"""
-Sandbox reference run of the freight-rate pipeline.
 
-Same feature engineering + validation design as the candidate's train_model.py,
-but uses sklearn's HistGradientBoostingRegressor ensemble instead of
-LightGBM/XGBoost, since those packages need network access to install and this
-sandbox has none. Produces real validation_predictions.csv, a completed
-december_chart_inputs.csv, and (via score.py) the actual chart + validated
-metrics, so the report is built on genuine output rather than placeholders.
-"""
 from __future__ import annotations
 
 import shutil
